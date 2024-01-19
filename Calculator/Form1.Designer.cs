@@ -66,6 +66,7 @@
             secondLine.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             secondLine.AutoSize = true;
             secondLine.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            secondLine.ImageAlign = ContentAlignment.MiddleRight;
             secondLine.Location = new Point(292, 59);
             secondLine.Name = "secondLine";
             secondLine.Size = new Size(46, 20);

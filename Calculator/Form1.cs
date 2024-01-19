@@ -29,7 +29,7 @@ namespace Calculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LoadNewNumber();
         }
 
 
@@ -135,14 +135,14 @@ namespace Calculator
 
         private void LoadNewNumber()
         {
-            if (index == 0)
+            if (act == "")
             {
                 secondLine.Text = "";
                 mainLine.Text = arr[0];
             }
             else
             {
-                secondLine.Text = arr[0];
+                secondLine.Text = $"{arr[0]} {act}";
                 mainLine.Text = arr[1];
             }
         }
@@ -172,6 +172,7 @@ namespace Calculator
                     break;
             }
             arr[1] = "0";
+            act = "";
             index = 0;
             LoadNewNumber();
         }

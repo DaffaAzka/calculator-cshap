@@ -50,17 +50,20 @@
             // 
             // mainLine
             // 
+            mainLine.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             mainLine.AutoSize = true;
             mainLine.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            mainLine.ImageAlign = ContentAlignment.MiddleRight;
             mainLine.Location = new Point(289, 65);
             mainLine.Name = "mainLine";
             mainLine.Size = new Size(70, 81);
             mainLine.TabIndex = 0;
             mainLine.Text = "0";
-            mainLine.TextAlign = ContentAlignment.MiddleRight;
+            mainLine.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // secondLine
             // 
+            secondLine.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             secondLine.AutoSize = true;
             secondLine.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             secondLine.Location = new Point(292, 59);
@@ -68,7 +71,7 @@
             secondLine.Size = new Size(46, 20);
             secondLine.TabIndex = 1;
             secondLine.Text = "3+4=";
-            secondLine.TextAlign = ContentAlignment.MiddleRight;
+            secondLine.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // cButton
             // 
@@ -81,6 +84,7 @@
             cButton.TabIndex = 2;
             cButton.Text = "C";
             cButton.UseVisualStyleBackColor = false;
+            cButton.Click += cButton_Click;
             // 
             // zeroButton
             // 
@@ -93,6 +97,7 @@
             zeroButton.TabIndex = 3;
             zeroButton.Text = "0";
             zeroButton.UseVisualStyleBackColor = false;
+            zeroButton.Click += zeroButton_Click;
             // 
             // divButton
             // 
@@ -105,6 +110,7 @@
             divButton.TabIndex = 4;
             divButton.Text = "÷";
             divButton.UseVisualStyleBackColor = false;
+            divButton.Click += divButton_Click;
             // 
             // solveButton
             // 
@@ -117,6 +123,7 @@
             solveButton.TabIndex = 5;
             solveButton.Text = "=";
             solveButton.UseVisualStyleBackColor = false;
+            solveButton.Click += solveButton_Click;
             // 
             // sumButton
             // 
@@ -129,6 +136,7 @@
             sumButton.TabIndex = 9;
             sumButton.Text = "+";
             sumButton.UseVisualStyleBackColor = false;
+            sumButton.Click += sumButton_Click;
             // 
             // threeButton
             // 
@@ -141,6 +149,7 @@
             threeButton.TabIndex = 8;
             threeButton.Text = "3";
             threeButton.UseVisualStyleBackColor = false;
+            threeButton.Click += threeButton_Click;
             // 
             // twoButton
             // 
@@ -153,6 +162,7 @@
             twoButton.TabIndex = 7;
             twoButton.Text = "2";
             twoButton.UseVisualStyleBackColor = false;
+            twoButton.Click += twoButton_Click;
             // 
             // oneButton
             // 
@@ -165,6 +175,7 @@
             oneButton.TabIndex = 6;
             oneButton.Text = "1";
             oneButton.UseVisualStyleBackColor = false;
+            oneButton.Click += oneButton_Click;
             // 
             // subButton
             // 
@@ -177,6 +188,7 @@
             subButton.TabIndex = 13;
             subButton.Text = "-";
             subButton.UseVisualStyleBackColor = false;
+            subButton.Click += subButton_Click;
             // 
             // sixButton
             // 
@@ -189,6 +201,7 @@
             sixButton.TabIndex = 12;
             sixButton.Text = "6";
             sixButton.UseVisualStyleBackColor = false;
+            sixButton.Click += sixButton_Click;
             // 
             // fiveButton
             // 
@@ -201,6 +214,7 @@
             fiveButton.TabIndex = 11;
             fiveButton.Text = "5";
             fiveButton.UseVisualStyleBackColor = false;
+            fiveButton.Click += fiveButton_Click;
             // 
             // fourButton
             // 
@@ -213,6 +227,7 @@
             fourButton.TabIndex = 10;
             fourButton.Text = "4";
             fourButton.UseVisualStyleBackColor = false;
+            fourButton.Click += fourButton_Click;
             // 
             // multButton
             // 
@@ -225,6 +240,7 @@
             multButton.TabIndex = 17;
             multButton.Text = "x";
             multButton.UseVisualStyleBackColor = false;
+            multButton.Click += multButton_Click;
             // 
             // nineButton
             // 
@@ -237,6 +253,7 @@
             nineButton.TabIndex = 16;
             nineButton.Text = "9";
             nineButton.UseVisualStyleBackColor = false;
+            nineButton.Click += nineButton_Click;
             // 
             // eightButton
             // 
@@ -249,6 +266,7 @@
             eightButton.TabIndex = 15;
             eightButton.Text = "8";
             eightButton.UseVisualStyleBackColor = false;
+            eightButton.Click += eightButton_Click;
             // 
             // sevenButton
             // 
@@ -261,6 +279,7 @@
             sevenButton.TabIndex = 14;
             sevenButton.Text = "7";
             sevenButton.UseVisualStyleBackColor = false;
+            sevenButton.Click += sevenButton_Click;
             // 
             // Form1
             // 
@@ -288,6 +307,7 @@
             MaximizeBox = false;
             Name = "Form1";
             Text = "Calculator";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

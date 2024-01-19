@@ -1,0 +1,17 @@
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\bin\Debug\net8.0-windows\Calculator.exe
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\bin\Debug\net8.0-windows\Calculator.deps.json
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\bin\Debug\net8.0-windows\Calculator.runtimeconfig.json
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\bin\Debug\net8.0-windows\Calculator.dll
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\bin\Debug\net8.0-windows\Calculator.pdb
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.Form1.resources
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.GenerateResource.cache
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.AssemblyInfoInputs.cache
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.AssemblyInfo.cs
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.CoreCompileInputs.cache
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.sourcelink.json
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.dll
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\refint\Calculator.dll
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.pdb
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\Calculator.genruntimeconfig.cache
+E:\Programming\2024\CShap\Windows\Calculator\Calculator\obj\Debug\net8.0-windows\ref\Calculator.dll

@@ -95,27 +95,57 @@ namespace Calculator
             }
         }
 
-        private void cButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void subButton_Click(object sender, EventArgs e)
         {
-
+            if (act == "")
+            {
+                act = "-";
+                index = 1;
+                LoadNewNumber();
+            }
+            else
+            {
+                Solve();
+            }
         }
 
         private void multButton_Click(object sender, EventArgs e)
         {
-
+            if (act == "")
+            {
+                act = "*";
+                index = 1;
+                LoadNewNumber();
+            }
+            else
+            {
+                Solve();
+            }
         }
 
         private void divButton_Click(object sender, EventArgs e)
         {
-
+            if (act == "")
+            {
+                act = "÷";
+                index = 1;
+                LoadNewNumber();
+            }
+            else
+            {
+                Solve();
+            }
         }
 
         private void solveButton_Click(object sender, EventArgs e)
+        {
+            if (act != "")
+            {
+                Solve();
+            }
+        }
+
+        private void cButton_Click(object sender, EventArgs e)
         {
 
         }
@@ -151,23 +181,23 @@ namespace Calculator
 
         private void Solve()
         {
-            int n = 0;
+            double n = 0;
             switch (act)
             {
                 case "+":
-                    n = int.Parse(arr[0]) + int.Parse(arr[1]);
+                    n = double.Parse(arr[0]) + double.Parse(arr[1]);
                     arr[0] = n.ToString();
                     break;
                 case "-":
-                    n = int.Parse(arr[0]) - int.Parse(arr[1]);
+                    n = double.Parse(arr[0]) - double.Parse(arr[1]);
                     arr[0] = n.ToString();
                     break;
                 case "*":
-                    n = int.Parse(arr[0]) * int.Parse(arr[1]);
+                    n = double.Parse(arr[0]) * double.Parse(arr[1]);
                     arr[0] = n.ToString();
                     break;
-                case "/":
-                    n = int.Parse(arr[0]) / int.Parse(arr[1]);
+                case "÷":
+                    n = double.Parse(arr[0]) / double.Parse(arr[1]);
                     arr[0] = n.ToString();
                     break;
             }
